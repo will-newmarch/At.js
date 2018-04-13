@@ -217,7 +217,7 @@ App = (function() {
         _this.isComposing = false;
         setTimeout(function(e) {
           return _this.dispatch(e);
-        });
+        },0,e);
         return null;
       };
     })(this)).on('keyup.atwhoInner', (function(_this) {
